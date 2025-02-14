@@ -109,37 +109,79 @@ public class MainForm : Form
     }
 
     private void CheckCurrentStatus()
+{
+    try
     {
-        try
+        using (ServiceController service = new ServiceController("wuauserv"))
         {
-            using (ServiceController service = new ServiceController("wuauserv"))
+            //Mostra nos logs o atual status do serviço
+            LogMessage($"Status do Serviço Windows Update: {service.Status}");
+
+            // Checa a chave do registro das configurações do Windows Update
+            using (RegistryKey key = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU"))
             {
-                LogMessage($"Status do Windows Update Service: {service.Status}");
-
-                using (RegistryKey key = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Policies\Microsoft\Windows/6\WindowsUpdate\AU"))
+                if (key != null)
                 {
-                    if (key != null)
-                    {
-                        var noAutoUpdate = key.GetValue("NoAutoUpdate");
-                        LogMessage($"Configuração do AutoUpdate no registro: {(noAutoUpdate != null ? noAutoUpdate.ToString() : "Não Configurado")}");
+                    var noAutoUpdate = key.GetValue("NoAutoUpdate");
+                    
+                    // Mostra nos logs o status da configuração do registro
+                    LogMessage($"Configuração do AutoUpdate no registro: {(noAutoUpdate != null ? noAutoUpdate.ToString() : "Não Configurado")}");
 
-                        if (noAutoUpdate != null && noAutoUpdate.ToString() == "1")
+                    // Checa se o Windows Update está desabilitado (NoAutoUpdate = 1)
+                    if (noAutoUpdate != null && noAutoUpdate.ToString() == "1")
+                    {
+                        // Atualiza o status da interface gráfica
+                        isUpdateEnabled = false;
+                        this.InvokeIfRequired(() => 
                         {
-                            LogMessage("Windows Update DESABILITADO!");
-                        }
-                        else
-                        {
-                            LogMessage("Windows Update HABILITADO!");
-                        }
+                            toggleButton.Text = "Habilitar o Windows Update";
+                        });
+
+                        // Mostra os logs do status de desabilitado
+                        LogMessage("Status atual: Windows Update DESABILITADO", false);
+
+                        // Mostra a informação no Message Box
+                        MessageBox.Show(
+                            "Windows Update já encontra-se desabilitado!",
+                            "Status do Windows Update",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Information
+                        );
                     }
+                    else
+                    {
+                        // Atualiza o estado da interface gráfica
+                        isUpdateEnabled = true;
+                        this.InvokeIfRequired(() => 
+                        {
+                            toggleButton.Text = "Desabilitar o Windows Update";
+                        });
+
+                        // Mostra o log do status de habilitado
+                        LogMessage("Status atual: Windows Update HABILITADO", false);
+                    }
+                }
+                else
+                {
+                    // Mostra o log quando a chave de registro não foi encontrada
+                    LogMessage("Chave do registro não encontrada. Windows Update está no estado padrão.", false);
+                    isUpdateEnabled = true;
                 }
             }
         }
-        catch (Exception ex)
-        {
-            LogMessage($"Erro ao checar o status: {ex.Message}", true);
-        }
     }
+    catch (Exception ex)
+    {
+        // Mostra o log se algum erro ocorrer durante a checagem
+        LogMessage($"Erro ao verificar o status do Windows Update: {ex.Message}", true);
+        MessageBox.Show(
+            $"Erro ao verificar o status do Windows Update: {ex.Message}",
+            "Erro",
+            MessageBoxButtons.OK,
+            MessageBoxIcon.Error
+        );
+    }
+}
 
     private async void ToggleButton_Click(object sender, EventArgs e)
     {
