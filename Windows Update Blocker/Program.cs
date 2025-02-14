@@ -122,7 +122,15 @@ public class MainForm : Form
                     {
                         var noAutoUpdate = key.GetValue("NoAutoUpdate");
                         LogMessage($"Configuração do AutoUpdate no registro: {(noAutoUpdate != null ? noAutoUpdate.ToString() : "Não Configurado")}");
-                        LogMessage($"Windows Update DESABILITADO!");
+
+                        if (noAutoUpdate != null && noAutoUpdate.ToString() == "1")
+                        {
+                            LogMessage("Windows Update DESABILITADO!");
+                        }
+                        else
+                        {
+                            LogMessage("Windows Update HABILITADO!");
+                        }
                     }
                 }
             }
