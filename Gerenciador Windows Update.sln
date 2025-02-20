@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.35706.149
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gerenciador do Window Update", "Windows Update Blocker\Gerenciador do Window Update.csproj", "{6B1FB654-5C05-4D67-B563-114A3083C0F7}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalador Gerenciador Windows Update", "Windows Update Blocker\Gerenciador do Windows Update.vdproj", "{C7F5FF3B-31F7-4C88-A027-369AE991E601}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gerenciador do Windows Update", "Windows Update Blocker\Gerenciador do Windows Update.csproj", "{6B1FB654-5C05-4D67-B563-114A3083C0F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +15,6 @@ Global
 		{6B1FB654-5C05-4D67-B563-114A3083C0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B1FB654-5C05-4D67-B563-114A3083C0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B1FB654-5C05-4D67-B563-114A3083C0F7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C7F5FF3B-31F7-4C88-A027-369AE991E601}.Debug|Any CPU.ActiveCfg = Debug
-		{C7F5FF3B-31F7-4C88-A027-369AE991E601}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
