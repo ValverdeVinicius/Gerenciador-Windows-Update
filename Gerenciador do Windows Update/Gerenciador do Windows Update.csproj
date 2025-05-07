@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6B1FB654-5C05-4D67-B563-114A3083C0F7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Windows_Update_Blocker</RootNamespace>
+    <RootNamespace>Gerenciador_do_Windows_Update</RootNamespace>
     <AssemblyName>Gerenciador do Windows Update</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -52,7 +52,7 @@
     <StartupObject>MainForm</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>icons8-windows-update-70.ico</ApplicationIcon>
+    <ApplicationIcon>upgradefromwindows_1984.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -130,7 +130,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="icons8-windows-update-70.ico" />
+    <Content Include="upgradefromwindows_1984.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

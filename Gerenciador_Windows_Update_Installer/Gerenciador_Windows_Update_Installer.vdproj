@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:Gerenciador_Windows_Update_Installer"
+"ProjectName" = "8:Instalador do Gerenciador do Windows Update"
 "LanguageId" = "3:1046"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1046"
@@ -15,104 +15,92 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_3BC5B51557B5ED103E1C5667CAE48ADE"
-        "OwnerKey" = "8:_714284A13CDB4DE2AF6D4FAB5F6CE59D"
+        "MsmKey" = "8:_186ADF3A721046ECA95ED428F458AEF0"
+        "OwnerKey" = "8:_8D9518CF2FC74F11807996B72F1BCF7E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_3BC5B51557B5ED103E1C5667CAE48ADE"
-        "OwnerKey" = "8:_7960074A661847AA9624003B06AF1456"
+        "MsmKey" = "8:_49893AC2F660D206F61726CF66F7DB50"
+        "OwnerKey" = "8:_8D9518CF2FC74F11807996B72F1BCF7E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_5172D985819EA9BA6E79148C72D60C6B"
-        "OwnerKey" = "8:_714284A13CDB4DE2AF6D4FAB5F6CE59D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_5172D985819EA9BA6E79148C72D60C6B"
-        "OwnerKey" = "8:_7960074A661847AA9624003B06AF1456"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_55100A582A064A8C990CAA980D522539"
+        "MsmKey" = "8:_8D9518CF2FC74F11807996B72F1BCF7E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_714284A13CDB4DE2AF6D4FAB5F6CE59D"
+        "MsmKey" = "8:_9F1B6688D43542C7A6819D0B484FD8DF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_7960074A661847AA9624003B06AF1456"
+        "MsmKey" = "8:_C8BEA849618F4096B69057BF2281686F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_8D7FE8462B46A7B7416328D2ADCA1DFC"
-        "OwnerKey" = "8:_714284A13CDB4DE2AF6D4FAB5F6CE59D"
+        "MsmKey" = "8:_C9E40DF103BEE3ACA1AB1CCFFBDF67A6"
+        "OwnerKey" = "8:_8D9518CF2FC74F11807996B72F1BCF7E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_8D7FE8462B46A7B7416328D2ADCA1DFC"
-        "OwnerKey" = "8:_7960074A661847AA9624003B06AF1456"
+        "MsmKey" = "8:_F9F623989E714100ADA0D4D8252F39DD"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_ADE3E3184E5908BE41639C0192FDF1DE"
-        "OwnerKey" = "8:_714284A13CDB4DE2AF6D4FAB5F6CE59D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_ADE3E3184E5908BE41639C0192FDF1DE"
-        "OwnerKey" = "8:_7960074A661847AA9624003B06AF1456"
+        "MsmKey" = "8:_FFC66F0EB6A4BE631CFEE8481326A992"
+        "OwnerKey" = "8:_8D9518CF2FC74F11807996B72F1BCF7E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7960074A661847AA9624003B06AF1456"
+        "OwnerKey" = "8:_8D9518CF2FC74F11807996B72F1BCF7E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_714284A13CDB4DE2AF6D4FAB5F6CE59D"
+        "OwnerKey" = "8:_C8BEA849618F4096B69057BF2281686F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_ADE3E3184E5908BE41639C0192FDF1DE"
+        "OwnerKey" = "8:_9F1B6688D43542C7A6819D0B484FD8DF"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3BC5B51557B5ED103E1C5667CAE48ADE"
+        "OwnerKey" = "8:_49893AC2F660D206F61726CF66F7DB50"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5172D985819EA9BA6E79148C72D60C6B"
+        "OwnerKey" = "8:_FFC66F0EB6A4BE631CFEE8481326A992"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8D7FE8462B46A7B7416328D2ADCA1DFC"
+        "OwnerKey" = "8:_C9E40DF103BEE3ACA1AB1CCFFBDF67A6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_186ADF3A721046ECA95ED428F458AEF0"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -140,6 +128,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -147,7 +143,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\Gerenciador_Windows_Update_Installer.msi"
+        "OutputFilename" = "8:Release\\Instalador do Gerenciador Windows Update.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -164,6 +160,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -194,96 +198,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3BC5B51557B5ED103E1C5667CAE48ADE"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_3BC5B51557B5ED103E1C5667CAE48ADE"
-                    {
-                    "Name" = "8:System.Security.Principal.Windows.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:System.Security.Principal.Windows.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_46C6A3DF5A3741E98C9A06E2520BBBDC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5172D985819EA9BA6E79148C72D60C6B"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Diagnostics.EventLog, Version=9.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_5172D985819EA9BA6E79148C72D60C6B"
-                    {
-                    "Name" = "8:System.Diagnostics.EventLog.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:System.Diagnostics.EventLog.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_46C6A3DF5A3741E98C9A06E2520BBBDC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_55100A582A064A8C990CAA980D522539"
-            {
-            "SourcePath" = "8:..\\Windows Update Blocker\\icons8-windows-update-70.ico"
-            "TargetName" = "8:icons8-windows-update-70.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_46C6A3DF5A3741E98C9A06E2520BBBDC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8D7FE8462B46A7B7416328D2ADCA1DFC"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_186ADF3A721046ECA95ED428F458AEF0"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_8D7FE8462B46A7B7416328D2ADCA1DFC"
+                    "_186ADF3A721046ECA95ED428F458AEF0"
                     {
                     "Name" = "8:System.Net.Http.dll"
                     "Attributes" = "3:512"
@@ -307,20 +229,164 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_ADE3E3184E5908BE41639C0192FDF1DE"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_49893AC2F660D206F61726CF66F7DB50"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:System.ServiceProcess.ServiceController, Version=9.0.0.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_ADE3E3184E5908BE41639C0192FDF1DE"
+                    "_49893AC2F660D206F61726CF66F7DB50"
                     {
                     "Name" = "8:System.ServiceProcess.ServiceController.dll"
                     "Attributes" = "3:512"
                     }
                 }
             "SourcePath" = "8:System.ServiceProcess.ServiceController.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_46C6A3DF5A3741E98C9A06E2520BBBDC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9F1B6688D43542C7A6819D0B484FD8DF"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Gerenciador do Windows Update, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_9F1B6688D43542C7A6819D0B484FD8DF"
+                    {
+                    "Name" = "8:Gerenciador do Windows Update.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\Gerenciador do Windows Update\\bin\\Release\\Gerenciador do Windows Update.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_CA9D65FC1B5849F8B1C9E54EE000B20B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C8BEA849618F4096B69057BF2281686F"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Gerenciador do Windows Update, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_C8BEA849618F4096B69057BF2281686F"
+                    {
+                    "Name" = "8:Gerenciador do Windows Update.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\Gerenciador do Windows Update\\bin\\Release\\Gerenciador do Windows Update.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_C02E4BD696874E0AB059C9A80C05488F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C9E40DF103BEE3ACA1AB1CCFFBDF67A6"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Diagnostics.EventLog, Version=9.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_C9E40DF103BEE3ACA1AB1CCFFBDF67A6"
+                    {
+                    "Name" = "8:System.Diagnostics.EventLog.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Diagnostics.EventLog.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_46C6A3DF5A3741E98C9A06E2520BBBDC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F9F623989E714100ADA0D4D8252F39DD"
+            {
+            "SourcePath" = "8:..\\Gerenciador do Windows Update\\upgradefromwindows_1984.ico"
+            "TargetName" = "8:upgradefromwindows_1984.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_46C6A3DF5A3741E98C9A06E2520BBBDC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FFC66F0EB6A4BE631CFEE8481326A992"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_FFC66F0EB6A4BE631CFEE8481326A992"
+                    {
+                    "Name" = "8:System.Security.Principal.Windows.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Security.Principal.Windows.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_46C6A3DF5A3741E98C9A06E2520BBBDC"
@@ -395,7 +461,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Gerenciador do Windows Update"
         "ProductCode" = "8:{2301938E-D65A-404A-B60D-E8100738A072}"
-        "PackageCode" = "8:{F36CC37C-92B0-4982-9433-88D6E96FF8FD}"
+        "PackageCode" = "8:{382592B8-151D-4007-AB57-D826F4B87AD3}"
         "UpgradeCode" = "8:{577C5A1E-13CA-4B85-B0D7-B8461E48035A}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -412,7 +478,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:viniciusvalverde.dev.br"
-        "ARPPRODUCTICON" = "8:_55100A582A064A8C990CAA980D522539"
+        "ARPPRODUCTICON" = "8:_F9F623989E714100ADA0D4D8252F39DD"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -914,37 +980,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_714284A13CDB4DE2AF6D4FAB5F6CE59D"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8D9518CF2FC74F11807996B72F1BCF7E"
             {
-            "SourcePath" = "8:..\\Windows Update Blocker\\obj\\Release\\Gerenciador do Windows Update.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_CA9D65FC1B5849F8B1C9E54EE000B20B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{6B1FB654-5C05-4D67-B563-114A3083C0F7}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7960074A661847AA9624003B06AF1456"
-            {
-            "SourcePath" = "8:..\\Windows Update Blocker\\obj\\Release\\Gerenciador do Windows Update.exe"
+            "SourcePath" = "8:..\\Gerenciador do Windows Update\\obj\\Release\\Gerenciador do Windows Update.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_46C6A3DF5A3741E98C9A06E2520BBBDC"

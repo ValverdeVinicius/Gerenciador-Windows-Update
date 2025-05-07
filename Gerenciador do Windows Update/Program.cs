@@ -456,6 +456,9 @@ public class MainForm : Form
     [STAThread]
     static void Main(string[] args)
     {
+        AppDomain.CurrentDomain.SetData("TargetFrameworkName", ".NETFramework,Version=v4.7.2");
+
+
         bool isAdmin = new WindowsPrincipal(WindowsIdentity.GetCurrent())
             .IsInRole(WindowsBuiltInRole.Administrator);
 

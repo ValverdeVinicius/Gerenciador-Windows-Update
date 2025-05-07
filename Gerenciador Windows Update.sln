@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.35706.149
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gerenciador do Windows Update", "Windows Update Blocker\Gerenciador do Windows Update.csproj", "{6B1FB654-5C05-4D67-B563-114A3083C0F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gerenciador do Windows Update", "Gerenciador do Windows Update\Gerenciador do Windows Update.csproj", "{6B1FB654-5C05-4D67-B563-114A3083C0F7}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Gerenciador_Windows_Update_Installer", "Gerenciador_Windows_Update_Installer\Gerenciador_Windows_Update_Installer.vdproj", "{63D572E2-42F9-4161-A3E4-4D3E8DE0A270}"
 EndProject
