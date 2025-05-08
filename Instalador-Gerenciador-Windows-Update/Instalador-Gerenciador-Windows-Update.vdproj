@@ -27,12 +27,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_795F9332438D4BDEB809D08074D6CE44"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_82B93852B8F77C2B990907BBBC127780"
         "OwnerKey" = "8:_E474E08B77504E5599C61A46455351D8"
         "MsmSig" = "8:_UNDEFINED"
@@ -45,12 +39,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C99835C7E7E54CF1B56BE99EBE47A535"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_E474E08B77504E5599C61A46455351D8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -59,24 +47,6 @@
         {
         "MsmKey" = "8:_F9AF524EAF9DC3A5628B405EA244BEE8"
         "OwnerKey" = "8:_E474E08B77504E5599C61A46455351D8"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9B4BC58C5E3ADBB609B08B310A909608"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_795F9332438D4BDEB809D08074D6CE44"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C99835C7E7E54CF1B56BE99EBE47A535"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -101,6 +71,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_F9AF524EAF9DC3A5628B405EA244BEE8"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_9B4BC58C5E3ADBB609B08B310A909608"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -128,6 +104,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -241,37 +225,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_795F9332438D4BDEB809D08074D6CE44"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Gerenciador do Windows Update, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_795F9332438D4BDEB809D08074D6CE44"
-                    {
-                    "Name" = "8:Gerenciador do Windows Update.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\Gerenciador do Windows Update\\bin\\Release\\Gerenciador do Windows Update.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_26E03EF8874C422493D7118211086F46"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_82B93852B8F77C2B990907BBBC127780"
             {
             "AssemblyRegister" = "3:1"
@@ -332,37 +285,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C99835C7E7E54CF1B56BE99EBE47A535"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Gerenciador do Windows Update, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_C99835C7E7E54CF1B56BE99EBE47A535"
-                    {
-                    "Name" = "8:Gerenciador do Windows Update.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\Gerenciador do Windows Update\\bin\\Release\\Gerenciador do Windows Update.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_FC3EC6FE35164403AA9B308D8BEB131F"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F9AF524EAF9DC3A5628B405EA244BEE8"
@@ -573,6 +495,34 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_0544288DE032471881B4A2C887F1950D"
+            {
+            "Name" = "8:Gerenciador do Windows Update"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_E474E08B77504E5599C61A46455351D8"
+            "Folder" = "8:_26E03EF8874C422493D7118211086F46"
+            "WorkingFolder" = "8:_6686F974A29B4B539F9350D5CF1F9BB2"
+            "Icon" = "8:_535F6455E2E7434C937892601403D19A"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_4B2DBACAF6914168B833F5FF0D17B12A"
+            {
+            "Name" = "8:Gerenciador do Windows Update"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_E474E08B77504E5599C61A46455351D8"
+            "Folder" = "8:_FC3EC6FE35164403AA9B308D8BEB131F"
+            "WorkingFolder" = "8:_6686F974A29B4B539F9350D5CF1F9BB2"
+            "Icon" = "8:_535F6455E2E7434C937892601403D19A"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
